@@ -1,0 +1,511 @@
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 62.5%;
+}
+
+
+.header {
+    background: no-repeat url(../images/bg-header-desktop.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px 180px 0px;
+}
+
+.header img {
+    margin: 57px;
+}
+
+.header .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .intro h1 {
+    font-size: var(--font-size-h1);
+    color: var(--cor-neutra-escura);
+    font-weight: var(--font-weight-titles);
+    margin-bottom: 25px;
+}
+
+.header .intro p {
+    font-size: 2.1rem;
+    color: var(--cor-neutra);
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.header .buttons a {
+    color: #fff;
+    font-size: var(--font-size-basic);
+    margin: 12px;
+}
+
+.header .buttons .download-ios {
+    box-shadow: 0px 7px 15px 0.1px hsl(171, 66%, 83%);
+    background-color: var(--cor-primaria-forte);
+    border-radius: 50px;
+    padding: 17px 45px;
+    transition: 0.3s;
+}
+
+.header .buttons .download-ios:hover {
+    opacity: 0.8;
+}
+
+.header .buttons .download-mac {
+    box-shadow: 0px 7px 15px 0.1px hsl(233, 100%, 87%);
+    background-color: var(--cor-primaria-fraca);
+    border-radius: 50px;
+    padding: 17px 45px;
+    transition: 0.3s;
+}
+
+.header .buttons .download-mac:hover {
+    opacity: 0.8;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.actions .action {
+    font-size: 3.7rem;
+    color: var(--cor-neutra-escura);
+    font-weight: var(--font-weight-titles);
+    margin-bottom: 25px;
+}
+
+.actions .action-description {
+    font-size: var(--font-size-basic);
+    color: var(--cor-neutra);
+    text-align: center;
+    max-width: 700px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.services img {
+    position: relative;
+    left: -40px;
+    width: 800px;
+}
+
+.service {
+    max-width: 350px;
+    margin-bottom: 60px;
+    margin-left: 75px;
+}
+
+.service .name {
+    font-weight: var(--font-weight-titles);
+    color: var(--cor-neutra-escura);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.service .service-description {
+    font-size: var(--font-size-basic);
+    color: var(--cor-neutra);
+}
+
+.single-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tools .tool {
+    max-width: 350px;
+    text-align: center;
+}
+
+.tools .tool .tool-icon {
+    margin-bottom: 50px;
+}
+
+.tools .tool .tool-name {
+    font-weight: var(--font-weight-titles);
+    color: var(--cor-neutra-escura);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tools .tool .tool-description {
+    font-size: 1.6rem;
+    color: var(--cor-neutra);
+    word-spacing: 2px;
+    margin-bottom: 140px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 170px;
+}
+
+.companies img {
+    /* width: 150px; */
+    height: 100%;
+}
+
+
+.outro .outro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outro .outro-text h2 {
+    font-weight: var(--font-weight-titles);
+    color: var(--cor-neutra-escura);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.outro .outro-text p {
+    font-size: var(--font-size-basic);
+    color: var(--cor-neutra);
+    max-width: 700px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.outro .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.outro .buttons a {
+    color: #fff;
+    font-size: var(--font-size-basic);
+    margin: 12px;
+    margin-bottom: 120px;
+}
+
+.outro .buttons .download-ios {
+    box-shadow: 0px 7px 15px 0.1px hsl(171, 66%, 83%);
+    background-color: var(--cor-primaria-forte);
+    border-radius: 50px;
+    padding: 17px 45px;
+    transition: 0.3s;
+}
+
+.outro .buttons .download-ios:hover {
+    opacity: 0.8;
+}
+
+.outro .buttons .download-mac {
+    box-shadow: 0px 7px 15px 0.1px hsl(233, 100%, 87%);
+    background-color: var(--cor-primaria-fraca);
+    border-radius: 50px;
+    padding: 17px 45px;
+    transition: 0.3s;
+}
+
+.outro .buttons .download-mac:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: hsl(260, 13%, 95%);
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 170px;
+}
+
+.footer .footer-links {
+
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2);
+}
+
+.footer .footer-links a {
+    font-size: var(--font-size-basic);
+    color: var(--cor-neutra-escura);
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.footer .footer-links a:hover {
+    color: var(--cor-primaria-forte);
+}
+
+.footer img {
+    max-height: 100%;
+}
+
+.footer .socials a i {
+    font-size: 20px;
+    color: var(--cor-neutra-escura);
+    padding: 20px;
+}
+
+
+@media (max-width:740px){
+    .header {
+        background: no-repeat url(../images/bg-header-mobile.png);
+        background-size: cover;
+        padding: 28px;
+    }
+
+    .header .intro {
+        text-align: center;
+    }
+
+    .header .buttons {
+        margin-bottom: 90px;
+    }
+
+    .actions {
+        padding: 28px;
+    }
+
+    .actions .action {
+        text-align: center;
+    }
+
+    .services img {
+        position: relative;
+        left: 0;
+        padding: 28px;
+        margin-bottom: 50px;
+    }
+
+    .services {
+        margin: 0;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .service {
+        margin: 0;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .tools {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 28px; 
+        margin-bottom: 60px;
+    }
+
+    .tools .tool .tool-description{
+        margin-bottom: 60px;
+    }
+
+    .companies {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+        column-gap: 60px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .footer img{
+        width: 50px;
+        margin-bottom: 50px;
+    }
+
+    .footer .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 18px;
+        margin-bottom: 35px;
+    }
+
+    .footer .socials a i{
+        font-size: 25px;
+        text-align: center;
+        padding: 40px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .header {
+        background: no-repeat url(../images/bg-header-mobile.png);
+        background-size: contain;
+        padding: 28px;
+    }
+
+    .header .intro {
+        text-align: center;
+    }
+
+    .header .intro h1 {
+        font-size: 3rem;
+    }
+
+    .header .intro p {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+
+    .header .buttons {
+        display: block;
+        width: 100%;
+        margin-bottom: 110px;
+    }
+
+    .header .buttons a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .actions {
+        padding: 28px;
+    }
+
+    .actions .action {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .actions .action .action-description {
+        font-size: 1.8rem;
+    }
+
+    .services img {
+        position: relative;
+        left: 0;
+        padding: 28px;
+        margin-bottom: 50px;
+    }
+
+    .service {
+        margin: 0;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .service .service-description {
+        text-align: center;
+    }
+
+    .actions {
+        margin-bottom: 50px;
+    }
+
+    .tools {
+        display: flex;
+        flex-direction: column;
+        padding: 28px;
+    }
+
+    .companies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 28px;
+        max-width: 50%;
+        row-gap: 70px;
+        margin: 0 auto;
+        margin-bottom: 110px;
+    }
+
+    .outro .outro-text {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .outro .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .outro .buttons .download-ios {
+        margin-bottom: 20px;
+    }
+
+    .outro .buttons a {
+        margin-bottom: 200px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 50px;
+    }
+
+    .footer img{
+        width: 35.5px;
+        margin-bottom: 50px;
+    }
+
+    .footer .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 18px;
+        margin-bottom: 35px;
+    }
+
+    /* .footer .socials a i{
+        margin-bottom: 50px;
+    } */
+
+    .footer .socials a i:first-child{
+        font-size: 25px;
+        padding-right: 30px;
+    }
+}

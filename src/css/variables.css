@@ -1,0 +1,13 @@
+:root{
+    --cor-primaria-forte: hsl(171, 66%, 44%);
+    --cor-primaria-fraca: hsl(233, 100%, 69%);
+
+    --cor-neutra-escura: hsl(210, 10%, 33%);
+    --cor-neutra: hsl(201, 11%, 66%);
+
+    --font-size-h1: 4.7rem;
+    --font-weight-titles: 600;
+
+    --font-size-basic: 1.8rem;
+
+}
